@@ -1,5 +1,4 @@
-# Heroku Buildpack Poppler
+# Heroku Buildpack pdfinfo (not poppler)
 
-This is the updated Heroku buildpack for poppler, includes slimmed down dependencies that work 
-with Docsplit in the Cedar-14 environment. It was broken and we fixed it. Might not have all the
-libraries you need but it works for us.
+heroku-20 buildpack for pdfinfo, based on [survantjames/heroku-buildpack-poppler](https://github.com/survantjames/heroku-buildpack-poppler).
+Other poppler-utils commands are included but not yet tested.
