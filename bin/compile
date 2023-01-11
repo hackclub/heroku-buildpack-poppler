@@ -11,7 +11,7 @@ POPPLER_DIR='${HOME}/vendor/poppler'
 echo "Untarring poppler.tar.gz into ${INSTALL_DIR}"
 
 mkdir -p $INSTALL_DIR
-tar -zxvf poppler-21.03.0.tar.gz -C $INSTALL_DIR
+tar -zxvf poppler-21.03.0.tar.xz -C $INSTALL_DIR
 
 echo "Complete!"
 
