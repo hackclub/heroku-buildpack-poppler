@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "detect"
+echo "heroku-buildpack-poppler"
