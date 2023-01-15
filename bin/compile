@@ -8,10 +8,10 @@ ENVSCRIPT=$BUILD_DIR/.profile.d/poppler.sh
 # Single quotes since we want $HOME to be resolved at runtime, not build time.
 POPPLER_DIR='${HOME}/vendor/poppler'
 
-echo "Untarring poppler-21.03.0.tar.xz into ${INSTALL_DIR}"
+echo "Untarring poppler-21.03.0.tar.gz into ${INSTALL_DIR}"
 
 mkdir -p $INSTALL_DIR
-tar -xvf poppler-21.03.0.tar.xz -C $INSTALL_DIR
+tar -xzvf poppler-21.03.0.tar.gz -C $INSTALL_DIR
 
 echo "Complete!"
 
